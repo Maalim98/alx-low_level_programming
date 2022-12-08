@@ -20,15 +20,15 @@ int main(void)
 
 	float five;
 
-	printf("Size of a char: 0zu byte(s)\n", sizeof(one));
+	printf("Size of a char: %lu byte(s)\n", sizeof(one));
 
-	printf("Size of an int: 0zu byte(s)\n", sizeof(two));
+	printf("Size of an int: %lu byte(s)\n", sizeof(two));
 
-	printf("Size of a long int: 0zu byte(s)\n", sizeof(three));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(three));
 
-	printf("Size of a long long int:0zu byte(s)\n", sizeof(four));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(four));
 
-	printf("Size of a float: 0zu byte(s) \n", sizeof(five));
+	printf("Size of a float: %lu byte(s) \n", sizeof(five));
 
 	return (0);
 }
