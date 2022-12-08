@@ -4,6 +4,7 @@
  * main - Print a string with printf
  * Description: This program prints a string using the printf function
  * Return:0
+ 
  * */
 
 int main(void)
