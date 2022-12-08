@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/** this should print the sizes in bites
+/**
+ * main-prints sizes in bytes
  * Description: This program prints various sizes of various data types
  * Return:(0)
  **
- 
- */
+  */
 
 int main(void)
 
