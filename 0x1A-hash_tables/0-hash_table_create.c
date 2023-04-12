@@ -4,13 +4,13 @@
 #include <stdio.h>
 
 /**
- * create_hash_table - it creates a hash table
+ * hash_table_create - it creates a hash table
  * @size: the size of the table
  *
  * Return: If an error occurs - NULL.
  *         else - a pointer to the new hash table
  */
-hash_table_t *create_hash_table(unsigned long int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *table;
 	unsigned long int i;
